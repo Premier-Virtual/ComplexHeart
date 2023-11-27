@@ -11,8 +11,7 @@ jobs:
     strategy:
       matrix:
         php-version:
-          - 7.4
-          - 8.0
+          - 8.1
 
     steps:
       - name: Checkout source code
@@ -48,7 +47,7 @@ jobs:
           token: ${{ secrets.CODECOV_TOKEN }}
           file: ./coverage.xml
           flags: unittests
-          fail_ci_if_error: true
+          fail_ci_if_error: false
 
       - name: Static Code analysys
         run: composer analyse

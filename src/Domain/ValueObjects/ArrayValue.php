@@ -149,6 +149,7 @@ abstract class ArrayValue extends Value implements IteratorAggregate, ArrayAcces
      * @param  mixed  $offset
      * @return mixed|null
      */
+    #[\ReturnTypeWillChange]
     public function offsetGet($offset)
     {
         return $this->offsetExists($offset)
