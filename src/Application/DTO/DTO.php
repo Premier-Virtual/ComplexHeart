@@ -4,7 +4,8 @@ declare(strict_types=1);
 
 namespace OtherCode\ComplexHeart\Application\DTO;
 
-use Spatie\DataTransferObject\DataTransferObject;
+
+use Spatie\LaravelData\Data;
 
 /**
  * Class DTO
@@ -16,7 +17,7 @@ use Spatie\DataTransferObject\DataTransferObject;
  * @author Unay Santisteban <usantisteban@othercode.es>
  * @package OtherCode\ComplexHeart\Application\DTO
  */
-abstract class DTO extends DataTransferObject
+abstract class DTO extends Data
 {
 
 }

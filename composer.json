@@ -15,10 +15,10 @@
     "ext-json": "*",
     "ramsey/uuid": "^4.7",
     "nesbot/carbon": "^2.71",
-    "spatie/data-transfer-object": "^3.9",
     "lambdish/phunctional": "^2.1",
     "doctrine/instantiator": "^2.0",
-    "laravel/framework": "^10.33"
+    "laravel/framework": "^10.33",
+    "spatie/laravel-data": "^4.5"
   },
   "require-dev": {
     "mockery/mockery": "^1.6",
